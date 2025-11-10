@@ -27,8 +27,9 @@ O projeto foi construído com **arquitetura modular**, **integração total entr
 
 ### 🪟 Windows
 1. Descompacte o arquivo entregue (`desafio-prog-frontend.zip`)  
-2. Execute o script **`start.bat`** com duplo clique  
-3. O sistema será iniciado automaticamente:
+2. Execute o script **`start.bat`** com duplo clique
+3. Caso o Prompt de Comando (CMD) exiba a mensagem solicitando a instalação do pacote http-server@14.1.1, digite y e pressione Enter para confirmar.
+4. O sistema será iniciado automaticamente:
    - **Back-end:** `http://localhost:3000`  
    - **Front-end:** `http://localhost:8080` (abre no navegador padrão)
 
@@ -131,8 +132,9 @@ The project was built with a **modular architecture**, **full client-server inte
 
 ### 🪟 Windows
 1. Unzip the provided archive (`desafio-prog-frontend.zip`)  
-2. Double-click **`start.bat`** to launch  
-3. The system will start automatically:
+2. Double-click **`start.bat`** to launch
+3. If the Command Prompt (CMD) asks to install the http-server@14.1.1 package, type y and press Enter to confirm.
+4. The system will start automatically:
    - **Back-end:** `http://localhost:3000`  
    - **Front-end:** `http://localhost:8080` (opens in the default browser)
 
