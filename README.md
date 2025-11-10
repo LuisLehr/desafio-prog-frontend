@@ -44,7 +44,6 @@ O projeto foi construído com **arquitetura modular**, **integração total entr
 - Criação de turmas com **interface responsiva e intuitiva**  
 - Matrícula de aluno com **feedback imediato**  
 - Persistência de dados via **arquivo JSON (back-end)**  
-- Separação completa de **componentes React**
 
 ---
 
@@ -63,8 +62,7 @@ O projeto foi construído com **arquitetura modular**, **integração total entr
 ## 📁 Estrutura do Projeto
 ```
 desafio-prog-frontend/
-├── start.bat                     # Execução automatizada (Windows)
-├── start.sh                      
+├── start.bat                     # Execução automatizada (Windows)                 
 ├── package.json
 ├── public/
 │   ├── index.html
@@ -81,8 +79,8 @@ desafio-prog-frontend/
 │           ├── TurmasDisponiveis.jsx
 │           └── MinhasTurmas.jsx
 └── backend/
-    ├── server.js                 # API REST completa
-    └── dados.json                # Base de dados persistente
+    ├── server.js           
+    └── dados.json        
 ```
 
 ---
@@ -94,14 +92,6 @@ desafio-prog-frontend/
 | **GET** | `/turmas` | Lista todas as turmas |
 | **POST** | `/turmas` | Cria nova turma → `{disciplina, professorId, horario}` |
 | **POST** | `/matriculas` | Realiza matrícula → `{turmaId, alunoId: 1}` |
-
----
-
-## 🧠 Observações Técnicas
-- Uso de `npx http-server` dispensa dependências globais.  
-- Back-end em **Express**, com **CORS habilitado** e **persistência síncrona** em JSON.  
-- Front-end executado diretamente via **CDN (React 17 + Babel Standalone)**.  
-- Testado em **Windows 10/11**, **macOS Ventura** e **Ubuntu 22.04**.  
 
 ---
 
@@ -148,7 +138,6 @@ The project was built with a **modular architecture**, **full client-server inte
 - Responsive and intuitive class creation interface  
 - Student enrollment with instant feedback  
 - Data persistence using **local JSON file** (back-end)  
-- Full separation of **React components**
 
 ---
 
@@ -185,8 +174,8 @@ desafio-prog-frontend/
 │           ├── TurmasDisponiveis.jsx
 │           └── MinhasTurmas.jsx
 └── backend/
-    ├── server.js                 # Complete REST API
-    └── dados.json                # Persistent data storage
+    ├── server.js            
+    └── dados.json             
 ```
 
 ---
@@ -198,12 +187,4 @@ desafio-prog-frontend/
 | **GET** | `/turmas` | Lists all classes |
 | **POST** | `/turmas` | Creates new class → `{disciplina, professorId, horario}` |
 | **POST** | `/matriculas` | Enrolls student → `{turmaId, alunoId: 1}` |
-
----
-
-## 🧠 Technical Notes
-- Uses `npx http-server` to avoid global dependencies.  
-- Back-end built with **Express**, featuring **CORS** and **synchronous JSON persistence**.  
-- Front-end runs directly from **CDN (React 17 + Babel Standalone)**.  
-- Tested on **Windows 10/11**, **macOS Ventura**, and **Ubuntu 22.04**.  
 
