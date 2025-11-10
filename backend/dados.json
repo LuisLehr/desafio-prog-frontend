@@ -1,0 +1,66 @@
+{
+  "turmas": [
+    {
+      "id": 1,
+      "disciplina": "Programação Front-End",
+      "professorId": 2,
+      "professorNome": "Prof B",
+      "horario": "23",
+      "alunos": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "disciplina": "Matemática",
+      "professorId": 2,
+      "professorNome": "Prof B",
+      "horario": "33",
+      "alunos": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "disciplina": "Programação Front-End",
+      "professorId": 1,
+      "professorNome": "Prof A",
+      "horario": "53",
+      "alunos": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "disciplina": "Matemática",
+      "professorId": 1,
+      "professorNome": "Prof A",
+      "horario": "61",
+      "alunos": [
+        1
+      ]
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Prof A",
+      "turmasAlocadas": 3
+    },
+    {
+      "id": 2,
+      "nome": "Prof B",
+      "turmasAlocadas": 3
+    }
+  ],
+  "disciplinas": [
+    "Matemática",
+    "Programação Front-End"
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Aluno Exemplo"
+    }
+  ]
+}
