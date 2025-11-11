@@ -1,0 +1,15 @@
+Pré-requisitos
+Node.js 20.17.0 (LTS)
+Download oficial: https://nodejs.org/dist/v20.17.0/
+
+
+Como Executar o Projeto
+
+1. Descompacte o arquivo entregue (`desafio-prog-frontend.zip`)  
+2. Execute o script `start.bat` com duplo clique
+3. Caso o Prompt de Comando (CMD) exiba a mensagem solicitando a instalação do pacote http-server@14.1.1, digite y e pressione Enter para confirmar.
+4. O sistema será iniciado automaticamente:
+   Back-end: `http://localhost:3000`  
+   Front-end: `http://localhost:8080` (abre no navegador padrão)
+
+
